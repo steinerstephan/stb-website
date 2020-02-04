@@ -1,0 +1,191 @@
+#simple-social-icons-2 ul li a, #simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { 
+    background-color: #eeeeee !important; 
+    border-radius: 3px; color: #666666 !important; 
+    border: 0px #ffffff solid !important; 
+    font-size: 18px; padding: 9px; 
+}  
+#simple-social-icons-2 ul li a:hover, #simple-social-icons-2 ul li a:focus { 
+    background-color: #666666 !important; 
+    border-color: #ffffff !important; 
+    color: #ffffff !important; 
+}  
+#simple-social-icons-2 ul li a:focus { 
+    outline: 1px dotted #666666 !important; 
+}
+.site-header {
+    min-height: 60px;
+}
+.genesis-nav-menu {
+    font-size: 20px;
+}
+.site-header .widget-area {
+    width: auto;
+    padding: 0px 0px;
+}
+.main-card {
+    width: 70%;
+    float: left;
+}
+.side-card {
+    width: 30%;
+    float: left;
+}
+.card-wrapper {
+    overflow: hidden;
+}
+
+.article-wrapper {
+    margin-left: 20%;
+    max-width: 47%;
+    margin-right: 33%;
+    margin-top: 2em;
+}
+
+.nav-item {
+    padding-right: 1em;
+}
+.no-border {
+    border: none;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    padding: 0px 0px;
+}
+.horizontal-margin {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.margin-vertical {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sidenav {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: auto; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 100px; /* Stay at the top */
+    left: 67%;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    background: #343a40;
+}
+
+.sidenav-list {
+    padding: 20px;
+}
+
+.sidenav-list a {
+    color: #eeeeee;
+}
+
+.hidden {
+    display: none;
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+#bodenbeschichtung-1 {
+    width: 100%
+}
+
+.bodenbeschichtung-tab {
+    padding: 1px;
+}
+
+@media (min-width : 800px) { 
+    #heading-image-big {
+        display: block;
+        margin: 10px 0px;
+        height: 200px;
+    }
+    #heading-image-small {
+        display: none;
+    }
+    .main-card {
+        width: 70%;
+        float: left;
+    }
+    .side-card {
+        width: 30%;
+        float: left;
+    }
+    #heading-wrapper {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width : 800px) { 
+    #heading-image-small {
+        display: block;
+        margin: 10px 0px;
+        height: 200px;
+    }
+    #heading-image-big {
+        display: none;
+    }
+    #heading-wrapper {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #inner-header-div {
+        display: inline-block;
+    }
+    .main-card {
+        width: 100%;
+        float: left;
+    }
+    .side-card {
+        display: none;
+    }
+    .sidenav {
+        top: 0;
+        left: 0;
+        position: relative;
+        margin: 1em;
+        height: auto; /* Full-height: remove this if you want "auto" height */
+        width: 100%; /* Set the width of the sidebar */
+    }
+    .article-wrapper {
+        margin-left: 0%;
+        max-width: 100%;
+        margin-right: 0%;
+        margin-top: 2em;
+    }
+}
+
+
+@media (min-width : 1400px) { 
+    .article-wrapper {
+        margin-left: 20%;
+        max-width: 47%;
+        margin-right: 33%;
+        margin-top: 2em;
+    }
+}
+
+@media (max-width : 1400px) and (min-width : 800px) { 
+    .article-wrapper {
+        margin-left: 0%;
+        max-width: 67%;
+        margin-right: 33%;
+        margin-top: 2em;
+    }
+}

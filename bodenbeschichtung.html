@@ -1,0 +1,728 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ST Beschichtungstechnik | Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="icon" href="images/stb-logo-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/free.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <!-- JavaScript here-->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/bodenbeschichtung.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body id="bodenbeschichtung-body">
+    <img class="slide-logo animated slideInDown" src="images/stb-logo-full.jpg">
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="wrap collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="diestleistungen">
+                        Dienstleistungen
+                        <span class="sr-only">(current)</span><span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                        <a class="dropdown-item" href="bodenbeschichtung.html">Bodenbeschichtung</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="geraetevermietung.html">Gerätevermietung</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="handel.html">Handel</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ueberuns.html">Über Uns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="sidenav hidden" style="display: block;">
+        <ul class="sidenav-list nav nav-pills flex-column" id="pills-tab" role="tablist" aria-orientation="vertical">
+            <li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link active" id="bodenbeschichtung-1-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-1" href="#bodenbeschichtung-1" aria-selected="true">Allgemein</a>
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-2-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-2" href="#bodenbeschichtung-2" aria-selected="false">EP Bodenbeschichtungen</a>
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-3-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-3" href="#bodenbeschichtung-3" aria-selected="false">Abstreu-, Einstreu- und Dekorbelag</a>
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-4-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-4" href="#bodenbeschichtung-4" aria-selected="false">PU-Designbeschichtungen</a>
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-5-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-5" href="#bodenbeschichtung-5" aria-selected="false">Landwirtschaft, Obst- und Gemüsebau</a>
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-6-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-6" href="#bodenbeschichtung-6" aria-selected="false">Garagenbeschichtungen und -versieglungen</a>
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-7-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-7" href="#bodenbeschichtung-7" aria-selected="false">Natursteinteppiche</a>
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-8-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-8" href="#bodenbeschichtung-8" aria-selected="false">Betoninstandsetzung</a>
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-9-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-9" href="#bodenbeschichtung-9" aria-selected="false">Bauwerksabdichtung</a>
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-10-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-10" href="#bodenbeschichtung-10" aria-selected="false">Untergrundvorbereitung</a> 
+            </li><li class="nav-item">
+                <a class="bodenbeschichtung-tab nav-link" id="bodenbeschichtung-11-tab" data-toggle="pill" role="tab" aria-controls="bodenbeschichtung-11" href="#bodenbeschichtung-11" aria-selected="false">Untergrundanalyse</a>
+            </li>
+        </ul>
+    </div>
+
+    <section id="top"></section>
+
+    <br>
+    <br>
+    
+    <!-- CONTENT -->
+    <div  class="wrapper tab-content" id="bodenbeschichtung-container">
+        <div id="bodenbeschichtung-1" role="tabpanel" class="tab-pane fade show active" aria-labelledby="bodenbeschichtung-1-tab">
+            <div class="header-card-element wow fadeIn">
+                <h1 class="display-5 stb-blue">Bodenbeschichtungen</h1>
+            </div>
+
+
+            <!-- FIRST ROW -->
+            <div class="card-deck">
+                <div class="main-card-element wow fadeIn">
+                    <img class="card-image" src="images/schwamm.jpg" alt="Card image">
+                </div>
+
+                <div class="main-card-element text-box wow fadeIn">
+                    <h2 class="display-5 stb-blue">Reinigungsfreundlich</h2>
+                    <hr class="stb-blue">
+                    <p>
+                        Aufgrund der Flüssigkeitsdichtheit sind Bodenbeschichtungen mir herkömmlichen Reinigungsmitteln und Wasser einfach und problemlos zu reinigen.
+                    </p>
+                    <br>
+                    <h2 class="display-5 stb-blue">Flüssigkeitsdicht</h2>
+                    <hr class="stb-blue">
+                    <p>
+                        Anfallende Flüssigkeiten bleiben nur an der Oberfläche der fugenlosen Bodenbeschichtung, können nicht eindrigen und sind daher leicht und spurenlos wegwischbar.
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- SECOND ROW -->
+            <div class="card-deck">
+                <div class="main-card-element text-box wow fadeIn">
+                    <h2 class="display-5 stb-blue">Langlebig</h2>
+                    <hr class="stb-blue">
+                    <p>
+                        Die Bodenbeschichtung weist eine große Widerstandsfähigkeit auf und ist bei normalem Gebrauch nahezu unverwüstlich.
+                    </p>
+                    <br>
+                    <h2 class="display-5 stb-blue">Pflegeleicht</h2>
+                    <hr class="stb-blue">
+                    <p>
+                        Meist genügt es den Boden einmal im Jahr mittels einer speziellen Einpflege mit einem Schutzfilm zu versehen (abhängig von der jeweiligen Belastung).
+                    </p>
+                </div>
+
+                <div class="main-card-element wow fadeIn">
+                    <img class="card-image" src="images/uhr.jpg" alt="Card image">
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- THIRD ROW -->
+            <div class="card-deck">
+                <div class="main-card-element wow fadeIn">
+                    <img class="card-image" src="images/geschäft.jpg" alt="Card image">
+                </div>
+
+                <div class="main-card-element text-box wow fadeIn">
+                    <h2 class="display-5 stb-blue">Umweltverträglich</h2>
+                    <hr class="stb-blue">
+                    <p>
+                        Bodenbeschichtungen sind aufgrund ihrer hohen Umweltverträglichkeit und Hygiene auch ideal für den Küchenboden und Lebensmittel-Lagerräume etc. geeignet.
+                    </p>
+                    <br>
+                    <h2 class="display-5 stb-blue">Hoch Belastbar</h2>
+                    <hr class="stb-blue">
+                    <p>
+                        Die Bodenbeschichtung hält große Gewichte und mechanische Beanspruchungen problemlos aus und ist daher unter anderem auch bestens für Garagen, Fabriken und Lagerhallen geeignet.
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <!-- FOURTH ROW -->
+            <div class="card-deck">
+                <div class="main-card-element text-box wow fadeIn">
+                    <h2 class="display-5 stb-blue">Ästhetisch</h2>
+                    <hr class="stb-blue">
+                    <p>
+                        Die Formenvielfalt der Bodenbeschichtungen ermöglicht hohe ästhetische Ansprüche bei Farben und Gestaltung.
+                    </p>
+                </div>
+                <div class="main-card-element wow fadeIn">
+                    <img class="card-image" src="images/baum.jpg" alt="Card image">
+                </div>
+            </div>
+        </div>
+
+        <div id="bodenbeschichtung-2" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-2-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">EP Bodenbeschichtungen</h2>
+                <hr class="stb-blue">
+            </div>
+
+            <div class="main-card-element broad-card-element wow fadeIn">
+                <img class="card-image" src="images/ep-bodenbeschichtung-1.jpg" alt="Card image">
+            </div>
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Bodenbeschichtungen unterliegen hohen Anforderungen im Alltag. 
+                    Ob im Handel, im Gewerbe oder in der Industrie, als Reparatur-, Neubau- oder 
+                    Sanierungsmaßnahme wir sorgen dafür, dass Ihre Bodenbeschichtung allen Anforderungen 
+                    standhält. Häufig verwendete Untergründe sind: Zementestrich, Holz- oder Magnesitestrich, 
+                    Anhydritestrich, Fliesen, Beton oder Gussasphalt.
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element wow fadeIn">
+                <p>
+                    Die von uns hergestellten ST Beschichtungstechnik Epoxidharz Bodenbeschichtungen sind je 
+                    nach Bedarf elektrisch ableitfähig, säure-, laugen, fett- und ölbeständig, schwer 
+                    entflammbar und langlebig. Auch alte Untergründe werden von uns überarbeitet - dabei 
+                    entfernen und entsorgen wir alte Beläge und bereiten den Untergrund für den Auftrag 
+                    neuer Beschichtungen vor.
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/ep-bodenbeschichtung-2.jpg" alt="Card image">
+            </div>
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Wir beraten Sie gerne individuell bzgl. des Einsatz- und Verwendungszwecks innerhalb 
+                    Ihrer Räumlichkeit.
+                </p>
+                <p>
+                    Der Boden kann in allen RAL-Farben gestaltet werden, die Einstreuung von Farbchips 
+                    bringt zusätzliche optische Effekte. Je nach Einsatzgebiet erhält die Oberfläche die 
+                    optimale Rutschsicherheit.
+                </p>
+                <p>
+                    ST Beschichtungstechnik-Epoxidharzbeschichtungen sind nur wenige Millimeter dick und 
+                    trotzdem äußerst strapazierfähig und kommen hauptsächlich in Industriehallen, 
+                    Verkaufsräumen, Garagen, Kellerräumen, Lager, etc. zum Einsatz. Durch seine Robustheit 
+                    und sein modernes Erscheinungsbild, finden ST Beschichtungstechnik-Beschichtungen 
+                    immer mehr Zuwachs im privaten Sektor. Jeder Belag wird hierbei zu einem Unikat.
+                </p>
+                <p class="center">
+                    große Farbauswahl - verschiedene Rutschhemmstufen - fugenlos und leicht zu reinigen - ableitfähig herstellbar
+                </p>
+            </div>
+        </div>
+
+        <div id="bodenbeschichtung-3" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-3-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">Abstreu-, Einstreu- und Dekorbelag</h2>
+                <hr class="stb-blue">
+            </div>
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Bei den fugenlosen, ST Beschichtungstechnik Abstreubelägen steht die Funktion als 
+                    rutschhemmender bis R12 und hygienischer Fußboden im Vordergrund. Unser ST Beschichtungstechnik 
+                    Abstreubelag setzt sich aus mehreren Schichten zusammen und können je nach Anwendung mit 
+                    verschiedenen Belagsstärken, Materialien und Eigenschaften hergestellt werden. Als Basis 
+                    werden Epoxidharze oder Polyurethane – je nach Beanspruchung bzw. nach Bauteil – verwendet. 
+                    Die vergilbungsarme Einstellung der Rezeptur sowie die hohe Kratzbeständigkeit sorgen dafür, 
+                    dass das exkl. Erscheinungsbild lange erhalten bleibt. Die Beschichtung wird in einer 
+                    Schichtstärke von 2-5mm.
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element wow fadeIn">
+                <p>
+                    Lösungen mit Abstreubelägen bieten wir, den Anforderungen entsprechend für Parkplätze, Parkhäuser, 
+                    Industrieanlagen und Hallen an. Parkdeckbeschichtungen erfüllen je nach System gleich mehrere 
+                    Aufgaben. Sie sorgen für die Wasserdichtheit des Bodenbelags und verleihen ihm gleichzeitig 
+                    ein optisch ansprechendes Aussehen. Zusätzliche Herausforderungen für den Belag sind 
+                    Tausalzbeständigkeit, mechanische Beanspruchung und Rissüberbrückung. Wesentliche Faktoren 
+                    von Bodenbeschichtungen sind zudem Farbgestaltung und durch die Markierungen gewährleistete 
+                    Sicherheit.
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/abstreu-1.jpg" alt="Card image">
+            </div>
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Ob in Bürogebäuden, dem Gesundheitswesen, Gewerbeküchen, Lebensmittelindustrie, Garagen, 
+                    in Ihrem Zuhause oder der Pharmaindustrie: Der ST Beschichtungstechnik-Abstreubelag 
+                    stellt die ideale Lösung dar. Dort, wo verschleißfeste, hygienische und pflegeleichte 
+                    Böden benötigt werden, kommt dieses Beschichtungssystem zum Einsatz.
+                </p>
+                <p>
+                    Die Einfärbung erfolgt entweder nach RAL-Ton oder feuergetrocknete eingefärbte Colorquarzsanden. 
+                    Die geschlossene Oberfläche ist leicht zu reinigen und beständig gegen alle handelsüblichen Desinfektionsmittel.
+                </p>
+                <p class="center">
+                    rutschhemmend - fugenlos - hygienisch - robust - langlebig - seidenmatte Optik - leichte Reinigung
+                </p>
+            </div>
+        </div>
+
+        <div id="bodenbeschichtung-4" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-4-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">PU-Designbeschichtungen</h2>
+                <hr class="stb-blue">
+            </div>
+
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/pu-design-1.jpg" alt="Card image">
+            </div>
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Vermehrt werden unsere fugenlosen ST Beschichtungstechnik-Designböden im Wohn- und Arbeitsbereich, 
+                    auch als gestalterischer Bestandteil in Räumen genützt, die etwas Besonderes ausstrahlen sollen.
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element wow fadeIn">
+                <p>
+                    Die neu entwickelte Polyurethan-Bodenbeschichtung bietet einen besonders hohen Gehkomfort und eignet 
+                    sich deshalb hervorragend für den Wohnbereich sowie „sensible" Einrichtungen wie Krankenhäuser, 
+                    Kindergärten, Büros, Schulen oder etwa Altenheime. Die emissionsminimierte, trittschalldämmende 
+                    PU-Beschichtung ist absolut UV-beständig und kann auch problemlos bei großen Fensterflächen 
+                    eingesetzt werden. Für besten Sicherheitsstandard sorgt auch der Brandschutz. Zusätzlich ist 
+                    eine rutschhemmende Ausführung in Verbindung mit einer Spezialversiegelung möglich.
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p class="center">
+                    glatte, farbige Oberfläche - lichtbeständig (UV-beständig) - elastisch - für besonders dekorative Anforderungen - trittschalldemmend
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/pu-design-2.jpg" alt="Card image">
+            </div>
+        </div>
+
+        <div id="bodenbeschichtung-5" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-5-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">Bodenbeschichtungen für Landwirtschaft, Obst- und Gemüsebau</h2>
+                <hr class="stb-blue">
+            </div>
+
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/landwirtschaft-1.jpg" alt="Card image">
+            </div>
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Verstärkt halten Bodenbeschichtungen in den letzten Jahren auch in landwirtschaftlichen Betrieben 
+                    Einzug. Die hohen Hygienestandards bei Stallungen und in der Milchwirtschaft empfehlen dieses 
+                    Material für die Verwendung in Laufställen, Futterkrippen oder Melk- und Milchkammern. Auch im 
+                    Obst- und Weinbau setzt man Kunstharzböden für Produktions-, Gär- und Lagerkeller sowie 
+                    Präsentationsräume ein. Vor allem Eigenschaften wie die fugenlose Oberfläche, leichte 
+                    Reinigung, Chemikalienbeständigkeit und die hohe Beständigkeit gegen mechanische Belastungen 
+                    sprechen für dieses Beschichtungssystem.
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element wow fadeIn">
+                <p>
+                    Wir beraten Sie gerne ausführlich bezüglich des Einsatz- und Verwendungszwecks innerhalb Ihrer Räumlichkeit.
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/landwirtschaft-2.jpg" alt="Card image">
+            </div>
+        </div>
+        
+        <div id="bodenbeschichtung-6" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-6-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">Garagenbeschichtungen bzw. -versieglungen</h2>
+                <hr class="stb-blue">
+            </div>
+
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/garagen-1.jpg" alt="Card image">
+            </div>
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Bei einer Garagenbeschichtung ist nicht immer sofort klar um was es genau geht, obwohl 
+                    sich der Begriff eigentlich selbst erklärt. Jedoch gilt es hier zu differenzieren, ob man 
+                    eine Bodenversiegelung wählt oder eine Beschichtung. Der Unterschied ist schnell erklärt. 
+                    Bei einer Garagenbeschichtung oder einer Beschichtung im Allgemeinen, spricht man von einem 
+                    richtigen Aufbau des Bodens. Meist ergibt sich somit eine Aufbauhöhe von 2-4 mm und einer 
+                    Rutschfestigkeit von R9-R10. Bei einer Bodenversiegelung wird der vorhandene Belag einfach 
+                    überstrichen und somit liegt die Schichtdicke des Aufbaus bei gerade einmal ca. 1 mm.
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element wow fadeIn">
+                <p>
+                    Vielleicht fragen Sie sich nun, was denn das richtige wäre und was genau der Vorteil 
+                    einer Beschichtung ist. Genau das möchten wir Ihnen erklären, um Ihnen bei der Entscheidung zu helfen.
+                </p>
+                <p>
+                    Bitte rufen Sie uns an, wie beraten Sie gerne und erstellen Ihnen nach Ihren Wünschen Ihr Angebot.
+                </p>
+                <br>
+                <p class="center">
+                    extrem belastbar - hoch strapazierfähig - leicht zu reinigen - große Farbauswahl
+                </p>
+            </div>
+
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/garagen-2.jpeg" alt="Card image">
+            </div>
+        </div>
+
+        <div id="bodenbeschichtung-7" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-7-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">Natursteinteppiche</h2>
+                <hr class="stb-blue">
+            </div>
+            <!--
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/garagen-1.jpg" alt="Card image">
+            </div>
+            -->
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Mit ST Beschichtungstechnik Natursteinteppich eröffnen sich neue Dimensionen 
+                    der Raumgestaltung. Sie haben die Möglichkeit, ganz nach Ihren Wünschen farbige Oberflächen zu gestalten.
+                </p>
+                <p>
+                    Der ST Beschichtungstechnik Natursteinteppich besteht aus gerundeten Marmorkies oder eingefärbten Quarzkies, 
+                    welche mit einem speziell entwickelten Harz vermischt wird und in der Stärke von 4-8mm am bestehenden 
+                    Untergrund aufgetragen und geglättet wird. Durch das fachmännische Auftragen lässt sich der 
+                    Natursteinteppich bis in die kleinsten Winkel verlegen.
+                </p>
+            
+                <p>
+                    Der ST Beschichtungstechnik Natursteinteppich kann auf jeden tragfähigen, formbeständigen, sauberen und 
+                    trockenen Untergrund aufgebracht werden. Ein Betonuntergrund ist geradezu ideal. Ob klassisch-edel, 
+                    trendbewusst oder natürlich - ST Beschichtungstechnik Natursteinteppich kann, kreativ dem persönlichen 
+                    Lebens- und Wohnstil, angepasst werden. Aufgrund der körnigen Struktur ist die Oberfläche des 
+                    ST Beschichtungstechnik Natursteinteppichs auch im nassen Zustand rutschfest.
+                </p>
+                <p>
+                    Der ST Beschichtungstechnik Natursteinteppich ist besonders in Wellnessbereichen, Bäder, Eingangsbereichen, 
+                    Ausstellungsräumen, Büros, Geschäften, Hotels usw. gerne in Verwendung.
+                </p>
+                <br>
+                <p class="center">
+                    große Farbauswahl - Erdstrahl absorbierend - rutschfest - pflegeleicht - Massagewirkung - hoher Gehkomfort
+                </p>
+                <p class="center">
+                    keine Verlegerrichtungsvorgabe - dekorativ
+                </p>
+            </div>
+        </div>
+
+        <div id="bodenbeschichtung-8" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-8-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">Betoninstandsetzung</h2>
+                <hr class="stb-blue">
+            </div>
+            <!--
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/garagen-1.jpg" alt="Card image">
+            </div>
+            -->
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    In der Betoninstandsetzung verwenden wir ausschließlich geprüfte und zugelassene Systeme namhafter 
+                    europäischer Hersteller. Je nach Anforderung und Einsatzgebiet wählen wir das optimale Produktsystem.
+                </p>
+                <p>
+                    Ob eine Kleinreparatur oder eine Komplettsanierung – wir setzen Ihre Betonoberflächen, wie Balkone, 
+                    Attika, Mauern und Sockel bzw. andere Betonausbrüche mit den entsprechenden technischen Schritten wieder Instand.
+                </p>
+                <p>
+                    Dazu zählen die Hochdruckreinigung und das Abtragen des tauben Betons, das Freilegen und der Korrosionsschutz 
+                    des Bewährungsstahls, das Herstellen eines tragfähigen Untergrundes, die Reprofilierung, die Angleichung 
+                    der Struktur an die Bestandsoberfläche.
+                </p>
+                <p>
+                    Die Planung und Ausführung von baulichen Erhaltungs- u. Instandsetzungsmaßnahmen bedürfen spezieller Fachkenntnisse 
+                    und Erfahrungen, über die unsere Techniker und Fachkräfte aufgrund ihrer langjährigen Praxis sowie laufender 
+                    fachspezifischen Schulungen verfügen.
+                </p>
+                <br>
+                <p class="center">
+                    - Bauwerkuntersuchungen und Schadensanalyse<br>
+                    - Klassische Betoninstandsetzung nach dem neuesten Stand der Technik
+                </p>
+            </div>
+        </div>
+
+        <div id="bodenbeschichtung-9" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-9-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">Bauwerksabdichtungen</h2>
+                <hr class="stb-blue">
+            </div>
+            <!--
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/garagen-1.jpg" alt="Card image">
+            </div>
+            -->
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Wir schützen Ihr Bauwerk vor Feuchtigkeit und Bauschäden. Wir sind Ihr zuverlässiger und kompetenter Partner 
+                    für Abdichtungen von Kellern, Feuchträumen, Balkonen und Terrassen. Aufgrund unserer langjährigen 
+                    Erfahrung bei der Bauwerksabdichtung können Sie uns vertrauen.
+                </p>
+                <p>
+                    <u>Professionelle Lösungen für jedes Problem</u><br>
+                    Wir verwenden die neuesten Techniken und sind immer am aktuellen Stand, was neue Möglichkeiten und Methoden 
+                    der Bauwerksabdichtung betrifft. Egal, ob es sich um eine Abdichtung gegen Feuchte oder drückendes Wasser 
+                    handelt – wir sind Ihr Experte für Bauwerksabdichtungen. Wir arbeiten mit den besten Materialien, so dass 
+                    unser professionelles und kompetentes Team rasch eine zuverlässige und langlebige Lösung für jedes Problem findet.
+                </p>
+                <p>
+                    Voraussetzung für jede erfolgreiche Abdichtung ist eine professionelle Planung sowie deren fachgerechte Ausführung. 
+                    Die Investition in eine Bauwerksabdichtung vom Profi ist jeden Cent wert und wird sich sicher bezahlt machen!
+                </p>
+                <p>
+                    ST Beschichtungstechnik ist Ihr professioneller Ansprechpartner für Bauwerksabdichtungen. 
+                    Unsere kompetenten Mitarbeiter finden eine Lösung für jedes Problem und arbeiten sauber und rasch.
+                </p>
+                <br>
+                <p class="center">
+                    - Horizontalsperre – Mauertrockenlegung<br>
+                    - Betonkeller abdichten,Fugenabdichtung (Boden-Wand Fugen)<br>
+                    - Rissverpressung, Rohrdurchführungen abdichten, etc.
+                </p>
+            </div>
+        </div>
+
+        <div id="bodenbeschichtung-10" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-10-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">Untergrundvorbereitung für Bodenbeschichtungen</h2>
+                <hr class="stb-blue">
+            </div>
+            <!--
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/garagen-1.jpg" alt="Card image">
+            </div>
+            -->
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>
+                    Für eine haltbare und dauerhaft robuste Bodenbeschichtung ist die Vorbereitung des Untergrunds ausschlaggebend. 
+                    Dem ST Beschichtungstechnik Team stehen eine Reihe an zuverlässigen Methoden zur Verfügung, die wir professionell einsetzen.
+                </p>
+                <p>
+                    <u>Untergrundbearbeitung mit der passenden Methode</u><br>
+                    Je nach Ausgangsmaterial und Verlegeart eignen sich für die Untergrundvorbereitung von Böden verschiedene Techniken. 
+                    Ziel der Arbeiten ist es, perfekte Bedingungen für die Beschichtung zu schaffen und deren langfristigen Halt zu gewährleisten.
+                </p>
+
+                <p>Unsere Möglichkeiten in der Untergrundvorbereitung für Beschichtungen:</p>
+                <ul class="black">
+                    <li>Kugelstrahlen</li>
+                    <li>Diamantschleifen</li>
+                    <li>Fräsen</li>
+                </ul>
+            </div>
+
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/floor.jpg" alt="Card image">
+            </div>
+
+            <div class="main-card-element broad-card-element wow fadeIn">
+                <p>
+                    <u>Persönliche Beratung zur Untergrundvorbereitung</u><br>
+                    Bestehende Böden mit einer Beschichtung zu versehen, ist preisgünstiger und rascher durchführbar als der komplette Austausch. 
+                    Durch die Beschichtung erneuern Sie oft nicht nur die positiven Eigenschaften des Bodens, neue Technologien und Materialien 
+                    bieten Ihnen zusätzliche, wertvolle Funktionalitäten und Designmöglichkeiten.
+                </p>
+
+                <p>
+                    Voraussetzung für das optimale Ergebnis ist die perfekte Untergrundvorbereitung für die Bodenneubeschichtung. 
+                    Gerne beraten wir Sie persönlich bei einem unverbindlichen Termin vor Ort.
+                </p>
+            </div>
+        </div>
+
+        <div id="bodenbeschichtung-11" role="tabpanel" class="tab-pane fade show" aria-labelledby="bodenbeschichtung-11-tab">
+
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <h2 class="display-5 stb-blue">Untergrundanalyse für Beschichtungen</h2>
+                <hr class="stb-blue">
+            </div>
+            <!--
+            <div class="main-card-element broad-card-element fadeIn">
+                <img class="card-image" src="images/garagen-1.jpg" alt="Card image">
+            </div>
+            -->
+            
+            <div class="main-card-element broad-card-element text-box wow fadeIn">
+                <p>          
+                    Eine Neubeschichtung von Küchen-, Gastro-, Industrieböden und vielen anderen bringt wesentliche Vorteile, 
+                    wie zum Beispiel Kosten- und Zeitersparnis im Vergleich zum Neuverlegen von Böden.
+                </p>
+                <p>          
+                    Um die Eigenschaften der technologisch ausgereiften Beschichtungen in vollem Ausmaß nutzen zu können, 
+                    ist eine Analyse des bestehenden Untergrunds nötig. Auf dieser Grundlage stellen wir die Zusammensetzung 
+                    und damit die Eigenschaften der neuen Beschichtung genau nach Ihren Wünschen zusammen.
+                </p>
+                <p>
+                    <u>Techniken für eine zuverlässige Analyse des Untergrundes</u><br>
+                    Wesentlich für die Wahl der Beschichtungskomponenten sind Untergrundeigenschaften wie die:
+                </p>
+                <ul class="black">
+                    <li>Haftzugfestigkeit</li>
+                    <li>Restfeuchte</li>
+                    <li>Taupunkt</li>
+                    <li>Rautiefe</li>
+                </ul>
+
+                <p>
+                    Das ST Beschichtungstechnik Team führt entsprechende Messungen für Ihr Unternehmen oder öffentliche Einrichtungen durch.
+                </p>
+
+                <p>
+                    Unser Angebot im Bereich Untergrundanalyse:
+                </p>
+
+                <ul class="black">
+                    <li>Haftzugbemessung</li>
+                    <li>Restfeuchtebemessung</li>
+                    <li>Taupunktermittlung</li>
+                    <li>Rautiefenmessung</li>
+                    <li>Analyse für Bodensanierung</li>
+                </ul>
+
+                <p>
+                    Hochwertige Neubeschichtungen stellen nicht nur die Funktionalität bestehender Böden wieder her. Durch ständigen technologischen Fortschritt stehen uns verbesserte Beschichtungskomponenten zur Verfügung, die Ihre Anforderungen immer besser erfüllen.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<section id="partner">
+    <div id="partner-container">
+        <a href="https://www.avenariusagro.at/"><img src="images/avenarius-agro-logo.jpg"
+            class="partner-logo" alt="Avenarius Agro" itemprop="image" /></a>
+        <a href="https://www.sto.at/de/home/home.html"><img src="images/sto-logo.jpg" class="partner-logo"
+            alt="STO" itemprop="image" /></a>
+    </div>
+</section>
+
+<footer class="center">
+    <div class="wrapper">
+        <!-- First Row -->
+        <div class="card-deck">
+
+            <div class="footer-element text-box">
+                <h3 class="display-5">Unternehmen</h3>
+                <hr class="grey">
+                <p class="card-text">
+                    <strong>ST Beschichtungstechnik GmbH</strong> steht für innovative und qualitativ hochwertige
+                    Systeme,
+                    die bei Bodenbelägen wie auch für Wandbeschichtungen zum Einsatz kommen.
+                </p>
+                <br>
+                <div class="image-container">
+                    <a href="https://www.facebook.com/ST-Beschichtungstechnik-GmbH-107355764124944/"><img class="social-media-icon" src="images/facebook-icon.png" alt="alt"></a>
+                    <a href="https://instagram.com/st_beschichtungstechnik_gmbh?igshid=1hrkyalr0fbmz"><img class="social-media-icon" src="images/instagram-icon.png" alt="alt"></a>
+                    <!--<a href="index.html"><img class="social-media-icon" src="images/linked-in-icon.png" alt="alt"></a>-->
+                </div>
+            </div>
+            
+            <div class="footer-element text-box">
+                <h3 class="display-5">Kontakt</h3>
+                <hr class="grey">
+                <p class="card-text">
+                    <strong>ST Beschichtungstechnik GmbH</strong><br>
+                    St. Thomaser Straße 24<br>
+                    9400 Wolfsberg<br>
+                    <br>
+                    <strong>Tel:</strong> +43 664 2264509<br>
+                    <strong>Email:</strong> <a class="black"
+                        href="mailto:office@st-beschichtungstechnik.at">office@st-beschichtungstechnik.at</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<!-- Bottom Line -->
+<div class="center">
+    <br>
+    <p><a class="grey" href="index.html">ST Beschichtungstechnik GmbH</a> | Datenschutz (<a class="grey"
+            href="documents/Datenschutzmitteilung_Kundenverwaltung_ST-Beschichtungstechnik_GmbH.pdf"
+            target="_blank">Kunden</a>) (<a class="grey"
+            href="documents/Website_Datenschutzerklärung_ST-Beschichtungstechnik_GmbH.pdf" target="_blank">Website</a>)
+        <!--| <a class="grey" href="documents/AGB_ST-Beschichtungstechnik_Gmbh.pdf" target="_blank">AGB</a> -->| <a
+            class="grey" href="documents/Bodenlegermappe2013.pdf" target="_blank">Bodenlegermappe</a> | <a class="grey"
+            href="impressum.html">Impressum</a></p>
+    <div class="hidden">
+        <script type="text/javascript" src="https://whomania.com/count/32p9"></script><br><a
+            href='https://www.krankenversicherungsvergleich.at/'>Private Krankenversicherung Ö</a>
+        <script type='text/javascript'
+            src='https://www.whomania.com/ctr?id=b46bca2f77cf8f3625a1282666d0eaf10e98bf0f'></script>
+    </div>
+</div>
+
+</html>

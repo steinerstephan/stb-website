@@ -1,0 +1,691 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ST Beschichtungstechnik | Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="icon" href="images/stb-logo-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/free.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <!-- JavaScript here-->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/geraetevermietung.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <img class="slide-logo animated slideInDown" src="images/stb-logo-full.jpg">
+
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="wrap collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" data-toggle="dropdown" data-target="diestleistungen">
+                        Dienstleistungen
+                        <span class="sr-only">(current)</span><span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                        <a class="dropdown-item" href="bodenbeschichtung.html">Bodenbeschichtung</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="geraetevermietung.html">Gerätevermietung</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="handel.html">Handel</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ueberuns.html">Über Uns</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <!-- CONTENT -->
+    <div class="wrapper">
+        <div class="main-card-element broad-card-element text-box wow fadeIn">
+            <h2 class="display-5 stb-blue">Gerätevermietung</h2>
+            <hr class="stb-blue">
+        </div>
+        
+        <div class="main-card-element broad-card-element text-box wow fadeIn">
+            <p>
+                ST Beschichtungstechnik & Gerätevermietung  
+                verfügt über ein umfangreiches Sortiment von professionellen Baumaschinen 
+                und Hilfsstoffen für den privaten und industriellen Gebrauch. <br>
+                In unserem Sortiment befinden sich ausschließlich hochwertige Produkte 
+                von renommierten Marken, welche dem Industriestandard entsprechen.
+            </p>
+            <p>
+                Wir freuen uns auf Ihren Besuch und beraten Sie gerne!
+            </p>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="card-deck" id="catalogue">
+            
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="ziegelsäge-button" data-toggle="modal" data-target="#ziegelsäge-modal" title="Klicke auf das Bild für mehr Information!">
+                    <img src="images/geraete/ziegelsäge-2.JPG" class="d-block w-100 card-image" alt="Ziegelsäge">
+                </a>
+            </div>
+            
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="rüttelplatte-button" data-toggle="modal" data-target="#rüttelplatte-modal" title="Klicke auf das Bild für mehr Information!">
+                    <img src="images/geraete/rüttelplatte-4.JPG" class="d-block w-100 card-image" alt="Rüttelplatte">
+                </a>
+            </div>
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="erdbohrer-button" data-toggle="modal" data-target="#erdbohrer-modal" title="Klicke auf das Bild für mehr Information!">
+                    <img src="images/geraete/erdbohrer.JPG" class="d-block w-100 card-image" alt="Erdbohrer">
+                </a>
+            </div>
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="schraubstützen-button" data-toggle="modal" data-target="#schraubstützen-modal" title="Klicke auf das Bild für mehr Information!">
+                    <img src="images/geraete/schraubstützen-1.JPG" class="d-block w-100 card-image" alt="Schraubstützen">
+                </a>
+            </div>
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="anhänger-button" data-toggle="modal" data-target="#anhänger-modal" title="Klicke auf das Bild für mehr Information!">
+                    <img src="images/geraete/anhänger-1.JPG" class="d-block w-100 card-image" alt="Anhänger">
+                </a>
+            </div>
+        </div>
+        
+        <div class="card-deck" id="catalogue">
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="stemmhammer-button" data-toggle="modal" data-target="#stemmhammer-modal" title="Klicke auf das Bild für mehr Information!">
+                    <img src="images/geraete/stemmhammer-1.JPG" class="d-block w-100 card-image" alt="Stemmhammer">
+                </a>
+            </div>
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="betonschleifmaschine-125-button" data-toggle="modal" data-target="#betonschleifmaschine-125-modal" title="Klicke auf das Bild für mehr Information!">
+                    <img src="images/geraete/betonschleifmaschine-125mm-2-2.JPG" class="d-block w-100 card-image" alt="Betonschleifmaschine-125">
+                </a>
+            </div>
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="betonschleifmaschine-50-button" data-toggle="modal" data-target="#betonschleifmaschine-50-modal" title="Klicke auf das Bild für mehr Information!">
+                    <img src="images/geraete/betonschleifmaschine-50cm-2.JPG" class="d-block w-100 card-image" alt="Betonschleifmaschine-50">
+                </a>
+            </div>
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="staubabsaugung-button" data-toggle="modal" data-target="#staubabsaugung-modal">
+                    <img src="images/geraete/staubabsaugung-1.JPG" class="d-block w-100 card-image" alt="Staubabsaugung" title="Klicke auf das Bild für mehr Information!">
+                </a>
+            </div>
+            <div class="card bg-light mb-3 wow fadeIn">
+                <a id="staubsauger-button" data-toggle="modal" data-target="#staubsauger-modal">
+                    <img src="images/geraete/staubsauger-klein-3.JPG" class="d-block w-100 card-image" alt="Staubsauger" title="Klicke auf das Bild für mehr Information!">
+                </a>
+            </div>
+        </div>
+
+        <div class="main-card-element broad-card-element text-box wow fadeIn">
+            <p>
+                * Klicken Sie auf die Bilder für mehr Information.
+            </p>
+        </div>
+        
+    </div>
+
+    <div class="modal bg-dark fade" id="ziegelsäge-modal" tabindex="-1" role="dialog" aria-labelledby="ziegelsäge-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="ziegelsäge-label">Ziegelsäge</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Mit der Säge können folgende Mauersteine geschnitten werden:<br>
+                    <ul>
+                        <li> Mauerziegel mit einer geringen Festigkeitsklasse (bis zu 12 N/mm²) wie Wärmedämmziegel, leichte Hochlochziegel, leichte Ziegel mit Innendämmung</li>
+                        <li> Porenbetonsteine, z.B. Ytong</li>
+                    </ul>
+                    <br>
+                    * Sägeblattkosten 70,00 € pro Blatt
+                    <br>
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>150,00€</strong></p>
+                            <p><strong>36,00€</strong></p>
+                            <p><strong>90,00€</strong></p>
+                            <p><strong>60,00€</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/ziegelsäge-2.JPG" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal bg-dark fade" id="rüttelplatte-modal" tabindex="-1" role="dialog" aria-labelledby="rüttelplatte-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="rüttelplatte-label">Rüttelplatte</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Diese große Rüttelplatte eignet sich zum Anrütteln von Sand und Pflastersteinen wie z.B. 
+                    bei der Anlage von Auffahrten und Terrassen. Sie ist mit einem Radgestell ausgerüstet und 
+                    lässt sich so einfach transportieren. Um Beschädigungen von (Dekor-) Fliesen und/oder Naturstein 
+                    zu vermeiden, können Sie die passende Gummimatte verwenden.
+                    <br>
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>150,00€</strong></p>
+                            <p><strong>39,00€</strong></p>
+                            <p><strong>95,00€</strong></p>
+                            <p><strong>58,00€</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/rüttelplatte-2.JPG" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal bg-dark fade" id="erdbohrer-modal" tabindex="-1" role="dialog" aria-labelledby="erdbohrer-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="erdbohrer-label">Benzin-Erdbohrer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Der Benzin-Erdbohrer kann von einer Person bedient werden 
+                    und bohrt sich mühelos (harte) Böden. Die zugehörigen Bohrer, 
+                    mit den Durchmessern 80, 100, und 150mm können separat gemietet werden.
+                    <br>
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>100,00€</strong></p>
+                            <p><strong>37,00€</strong></p>
+                            <p><strong>94,00€</strong></p>
+                            <p><strong>56,00€</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/erdbohrer.JPG" class="w-100">
+                            <br>
+                            <br>
+                            <img src="images/geraete/wrong ratio/erdbohrer-2.jpg" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal bg-dark fade" id="schraubstützen-modal" tabindex="-1" role="dialog" aria-labelledby="schraubstützen-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="schraubstützen-label">Schraubstützen (Deckenstützen)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Schraubstützen unterstützen - buchstäblich - fast alle Bauprojekte.<br>
+                    - Dreibeine für Schraubstützen sind separat mietbar
+                    <br>
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>0,00€</strong></p>
+                            <p><strong>0,00€</strong></p>
+                            <p><strong>5,20€</strong></p>
+                            <p><strong>0,00€</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/schraubstützen-1.JPG" class="w-100">
+                            <br>
+                            <br>
+                            <img src="images/geraete/wrong ratio/schraubstützen-2.JPG" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal bg-dark fade" id="anhänger-modal" tabindex="-1" role="dialog" aria-labelledby="anhänger-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="anhänger-label">Anhänger - Einachser mit Plane</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Geschlossener Anhänger für unterschiedliche Anwendungsbereiche. Ideal, wenn die Ladung nicht nass 
+                    oder schmutzig werden darf. Sehr geeignet für Transporte im Rahmen kleiner Umzüge.
+                    <ul>
+                        <li> Nutzlast 800kg</li>
+                        <li> Führerschein E zu B erforderlich</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>150,00€</strong></p>
+                            <p><strong>32,00€</strong></p>
+                            <p><strong>98,00€</strong></p>
+                            <p><strong>60,00€</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/anhänger-1.JPG" class="w-100">
+                            <br><br>
+                            <img src="images/geraete/anhänger-2.JPG" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal bg-dark fade" id="stemmhammer-modal" tabindex="-1" role="dialog" aria-labelledby="stemmhammer-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="stemmhammer-label">Anhänger - Einachser mit Plane</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Dieser Stemmhammer mit SDS-max-Anschluss eignet sich für das Anlegen von Spalten oder 
+                    zum Abtragen von Putz und Fliesen. Die Maschine verfügt über einen verstellbaren und 
+                    drehbaren Handgriff. Diverse Meißel sind als separate Vermietungsartikel erhältlich.
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>150,00€</strong></p>
+                            <p><strong>30,00€</strong></p>
+                            <p><strong>75,00€</strong></p>
+                            <p><strong>45,00€</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/stemmhammer-1.JPG" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal bg-dark fade" id="betonschleifmaschine-125-modal" tabindex="-1" role="dialog" aria-labelledby="betonschleifmaschine-125-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="betonschleifmaschine-125-label">Betonschleifmaschine 125mm</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Kompakte Maschine für Oberflächenbearbeitung, z.B. Entfernung von Schalungs- und Betonresten, 
+                    zur Egalisierung, zur Reinigung oder zum leichten Aufrauen von Böden und Wänden. Wir führen 
+                    ein umfangreiches Diamanttopfscheiben Sortiment.
+                    <ul>
+                        <li>
+                            Verschleiß pro 0,1 mm 5,00 €
+                        </li>
+                        <li>
+                            Mindestgebühr Verschleiß 29,00 €
+                        </li>
+                        <li>
+                            passende Staubabsaugung ausleihbar
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>150,00€</strong></p>
+                            <p><strong>55,00€</strong></p>
+                            <p><strong>140,00€</strong></p>
+                            <p><strong>90,00€</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/betonschleifmaschine-125mm-3.JPG" class="w-100">
+                            <br>
+                            <br>
+                            <img src="images/geraete/betonschleifmaschine-staubsauger-set-klein-5.JPG" class="w-100">
+                            <br>
+                            <br>
+                            <img src="images/geraete/betonschleifmaschine-125mm-2-2.JPG" class="w-100">
+                            <br>
+                            <br>
+                            <img src="images/geraete/staubsauger-klein-2-2.JPG" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal bg-dark fade" id="betonschleifmaschine-50-modal" tabindex="-1" role="dialog" aria-labelledby="betonschleifmaschine-50-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="betonschleifmaschine-50-label">Betonschleifmaschine 50cm</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Maschine zum Schleifen und Reinigen von Betonfußböden und zum Entfernen von Beschichtungen. Sorgt für eine glatte und flache Oberfläche.
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>500,00€</strong></p>
+                            <p><strong>105,00€</strong></p>
+                            <p><strong>270,00€</strong></p>
+                            <p><strong>auf Anfrage</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/betonschleifmaschine-50cm-1.JPG" class="w-100">
+                            <br>
+                            <br>
+                            <img src="images/geraete/betonschleifmaschine-staubsauger-set-groß-2.JPG" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal bg-dark fade" id="staubabsaugung-modal" tabindex="-1" role="dialog" aria-labelledby="staubabsaugung-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="staubabsaugung-label">Staubabsaugung</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Dieser leistungsstarke 230V-Staubsauger wird überall dort eingesetzt, wo mehr Staub als normal entsteht.
+                    Er eignet sich hervorragend für Schleif-, Säge- und Fräsmaschinen mit 230V-Anschluss. Die Staubbeutel 
+                    lassen sich dank des Longopac- Systems schnell, effizient und staubfrei austauschen.
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>400,00€</strong></p>
+                            <p><strong>85,00€</strong></p>
+                            <p><strong>299,00€</strong></p>
+                            <p><strong>auf Anfrage</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/staubabsaugung-1.JPG" class="w-100">
+                            <br>
+                            <br>
+                            <img src="images/geraete/betonschleifmaschine-staubsauger-set-groß-2.JPG" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal bg-dark fade" id="staubsauger-modal" tabindex="-1" role="dialog" aria-labelledby="staubsauger-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h5 class="modal-title black" id="staubsauger-label">Staubsauger</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body black text-box">
+                    Diese Staubsauger passen perfekt zu unseren 125mm-Betonschleifern.
+                    <br>
+                    <br>
+                    <br>
+                    <div class="card-deck modal-card-deck">
+                        <div class="model-card-deck-column">
+                            <p><strong>180,00€</strong></p>
+                            <p><strong>38,00€</strong></p>
+                            <p><strong>107,00€</strong></p>
+                            <p><strong>75,00€</strong></p>
+                        </div>
+                        <div class="model-card-deck-column">
+                            <p>Kaution</p>
+                            <p>pro Tag</p>
+                            <p>pro Woche</p>
+                            <p>pro Wochenende</p>
+                        </div>
+                        <br>
+                        <div>
+                            <img src="images/geraete/staubsauger-klein-2.JPG" class="w-100">
+                            <br>
+                            <br>
+                            <img src="images/geraete/staubsauger-klein-2-1.JPG" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<section id="partner" class="center">
+    <div id="partner-container">
+        <a href="https://www.avenariusagro.at/"><img src="images/avenarius-agro-logo.jpg"
+            class="partner-logo" alt="Avenarius Agro" itemprop="image" /></a>
+        <a href="https://www.sto.at/de/home/home.html"><img src="images/sto-logo.jpg" class="partner-logo"
+            alt="STO" itemprop="image" /></a>
+    </div>
+</section>
+
+<footer class="center">
+    <div class="wrapper">
+        <!-- First Row -->
+        <div class="card-deck">
+
+            <div class="footer-element text-box">
+                <h3 class="display-5">Unternehmen</h3>
+                <hr class="grey">
+                <p class="card-text">
+                    <strong>ST Beschichtungstechnik GmbH</strong> steht für innovative und qualitativ hochwertige
+                    Systeme,
+                    die bei Bodenbelägen wie auch für Wandbeschichtungen zum Einsatz kommen.
+                </p>
+                <br>
+                <div class="image-container">
+                    <a href="https://www.facebook.com/ST-Beschichtungstechnik-GmbH-107355764124944/"><img class="social-media-icon" src="images/facebook-icon.png" alt="alt"></a>
+                    <a href="https://instagram.com/st_beschichtungstechnik_gmbh?igshid=1hrkyalr0fbmz"><img class="social-media-icon" src="images/instagram-icon.png" alt="alt"></a>
+                    <!--<a href="index.html"><img class="social-media-icon" src="images/linked-in-icon.png" alt="alt"></a>-->
+                </div>
+            </div>
+
+            <div class="footer-element text-box">
+                <h3 class="display-5">Kontakt</h3>
+                <hr class="grey">
+                <p class="card-text">
+                    <strong>ST Beschichtungstechnik GmbH</strong><br>
+                    St. Thomaser Straße 24<br>
+                    9400 Wolfsberg<br>
+                    <br>
+                    <strong>Tel:</strong> +43 664 2264509<br>
+                    <strong>Email:</strong> <a class="black"
+                        href="mailto:office@st-beschichtungstechnik.at">office@st-beschichtungstechnik.at</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<!-- Bottom Line -->
+<div class="center">
+    <br>
+    <p><a class="grey" href="index.html">ST Beschichtungstechnik GmbH</a> | Datenschutz (<a class="grey"
+            href="documents/Datenschutzmitteilung_Kundenverwaltung_ST-Beschichtungstechnik_GmbH.pdf"
+            target="_blank">Kunden</a>) (<a class="grey"
+            href="documents/Website_Datenschutzerklärung_ST-Beschichtungstechnik_GmbH.pdf" target="_blank">Website</a>)
+        <!--| <a class="grey" href="documents/AGB_ST-Beschichtungstechnik_Gmbh.pdf" target="_blank">AGB</a> -->| <a
+            class="grey" href="documents/Bodenlegermappe2013.pdf" target="_blank">Bodenlegermappe</a> | <a class="grey"
+            href="impressum.html">Impressum</a></p>
+    <div class="hidden">
+        <script type="text/javascript" src="https://whomania.com/count/32p9"></script><br><a
+            href='https://www.krankenversicherungsvergleich.at/'>Private Krankenversicherung Ö</a>
+        <script type='text/javascript'
+            src='https://www.whomania.com/ctr?id=b46bca2f77cf8f3625a1282666d0eaf10e98bf0f'></script>
+    </div>
+</div>
+
+</html>
