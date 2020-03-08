@@ -18,7 +18,6 @@ function animateCSS(element, animationName, callback) {
 $( document ).ready(function() {
     $("#ziegelsäge-button").on("mouseenter", function(){
         animateCSS("#ziegelsäge-button", "pulse")
-        
     });
     $("#rüttelplatte-button").on("mouseenter", function(){
         animateCSS("#rüttelplatte-button", "pulse")
@@ -43,6 +42,9 @@ $( document ).ready(function() {
     });
     $("#staubabsaugung-button").on("mouseenter", function(){
         animateCSS("#staubabsaugung-button", "pulse")
+    });
+    $("#staubsauger-button").on("mouseenter", function(){
+        animateCSS("#staubsauger-button", "pulse")
     });
 
 });

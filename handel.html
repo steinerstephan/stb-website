@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/free.min.css">
 
+    <!-- Font Good Times -->
+    <link rel="stylesheet" href="css/fonts/good_times/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="css/fonts/good_times/stylesheet.css" type="text/css" charset="utf-8" />
+
     <link rel="stylesheet" href="css/styles.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
@@ -27,6 +31,7 @@
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/handel.js"></script>
 </head>
 
 <body>
@@ -65,6 +70,9 @@
                     </div>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="ueberuns.html">Über Uns</a>
                 </li>
                 <li class="nav-item">
@@ -79,19 +87,121 @@
 
     <!-- CONTENT -->
     <div class="wrapper">
-        
-        <div class="main-card-element broad-card-element center">
-            <img src="images/in-progress.jpg" class="w-50">
+        <div class="main-card-element broad-card-element text-box wow fadeIn">
+            <center><h1 class="display-5 stb-blue">Unsere Partner und Lieferanten</h1></center>
         </div>
+        
+        <div class="main-card-element broad-card-element text-box wow fadeIn">
+            <p>
+                Durch unsere Erfahrung im Bereich Bodenbeschichtung als auch im Baubereich allgemein
+                können wir Sie bei Ihrem Vorhaben beraten und geeignete Produkte vorschlagen, die 
+                auch bei uns erwerbbar sind.
+            </p>
+        </div>
+
+        <div class="main-card-element broad-card-element text-box wow fadeIn">
+            <p>
+                Wir vertreiben Produkte im Bereich Wärmedämm-Verbundsysteme, Außen- und Innenputze, 
+                dekorative Gestaltungselemente, Sanierputzsysteme, Fassadensanierung und Renovierung, 
+                Fassadenfarben und Anstriche, Bautenlacke und Holzbeschichtungen, Betonschutz, 
+                Innenputz und sonstige Produkte der angeführten Marken.
+            </p>
+        </div>
+
+        <div class="main-card-element broad-card-element text-box wow fadeIn">
+            <center>
+                <a href="https://www.synthesa.at/profishops">
+                    <img id="lieferanten-logo-1" src="images/partner/synthesa-profishop-logo.jpg" class="partner-logo" alt="Synthesa Profishop" itemprop="image" />
+                </a>
+            </center>
+        </div>
+
+        <div class="main-card-element broad-card-element text-box wow fadeIn">
+            <p>
+                Unter anderem handeln wir auch mit Produkten der folgenden Hersteller:
+                
+            </p>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+            <a href="https://www.avenariusagro.at/">
+                <img id="lieferanten-logo-2" src="images/partner/avenarius-agro-logo.jpg" class="partner-logo" alt="Avenarius Agro" itemprop="image" />
+            </a>
+            <a href="https://www.sto.at/de/home/home.html">
+                <img id="lieferanten-logo-3" src="images/partner/sto-logo.jpg" class="partner-logo" alt="STO" itemprop="image" />
+            </a>
+            <a href="https://aut.sika.com/">
+                <img id="lieferanten-logo-4" src="images/partner/sika-logo.jpg" class="partner-logo" alt="Sika" itemprop="image" />
+            </a>
+            <a href="https://www.murexin.at/">
+                <img id="lieferanten-logo-5" src="images/partner/murexin-logo.jpg" class="partner-logo" alt="Murexin" itemprop="image" />
+            </a>
+        </div>
+
+        <br>
+        <br>
+        
+
     </div>
 </body>
 
 <section id="partner" class="center">
     <div id="partner-container">
-        <a href="https://www.avenariusagro.at/"><img src="images/avenarius-agro-logo.jpg"
-            class="partner-logo" alt="Avenarius Agro" itemprop="image" /></a>
-        <a href="https://www.sto.at/de/home/home.html"><img src="images/sto-logo.jpg" class="partner-logo"
-            alt="STO" itemprop="image" /></a>
+        <div id="partner-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://www.avenariusagro.at/">
+                        <img src="images/partner/avenarius-agro-logo.jpg" class="partner-logo" alt="Avenarius Agro" itemprop="image" />
+                    </a>
+                    <a href="https://www.sto.at/de/home/home.html">
+                        <img src="images/partner/sto-logo.jpg" class="partner-logo"alt="STO" itemprop="image" />
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.sto.at/de/home/home.html">
+                        <img src="images/partner/sto-logo.jpg" class="partner-logo"alt="STO" itemprop="image" />
+                    </a>
+                    <a href="https://aut.sika.com/">
+                        <img src="images/partner/sika-logo.jpg" class="partner-logo"alt="Sika" itemprop="image" />
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://aut.sika.com/">
+                        <img src="images/partner/sika-logo.jpg" class="partner-logo"alt="Sika" itemprop="image" />
+                    </a>
+                    <a href="https://www.murexin.at/">
+                        <img src="images/partner/murexin-logo.jpg" class="partner-logo"alt="Murexin" itemprop="image" />
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.murexin.at/">
+                        <img src="images/partner/murexin-logo.jpg" class="partner-logo"alt="Murexin" itemprop="image" />
+                    </a>
+                    <a href="https://www.synthesa.at/">
+                        <img src="images/partner/synthesa-logo.jpg" class="partner-logo"alt="Synthesa" itemprop="image" />
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.synthesa.at/">
+                        <img src="images/partner/synthesa-logo.jpg" class="partner-logo"alt="Synthesa" itemprop="image" />
+                    </a>
+                    <a href="https://www.avenariusagro.at/">
+                        <img src="images/partner/avenarius-agro-logo.jpg" class="partner-logo" alt="Avenarius Agro" itemprop="image" />
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#partner-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#partner-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
 </section>
 
