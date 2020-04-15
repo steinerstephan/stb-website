@@ -124,6 +124,10 @@ h4 {
     border-radius: 0px;
 }
 
+.blog-element {
+    text-align: center;
+}
+
 .text-box {
     text-align: left;
 }
@@ -319,10 +323,6 @@ a {
 
 .anthrazit-bg {
     background-color: #383e42 !important;
-}
-
-.header-card-element {
-
 }
 
 .form-group {
