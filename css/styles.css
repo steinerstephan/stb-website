@@ -81,6 +81,27 @@ h4 {
     background-color: #0F1314 !important;
 }
 
+.blog-nav {
+    font-size: x-large;
+}
+
+.blog-nav .nav-item .nav-link {
+    background-image: none;
+    background-color: #383e42 !important;
+    border: none;
+    padding: 10px 0px !important;
+    margin: 10px 10px !important;
+    font-family: 'good_timesregular', Arial;
+}
+
+.blog-nav .nav-item .nav-link:hover {
+    background-color: black !important;
+}
+
+.blog-nav .nav-item .nav-link.active {
+    background-color: black !important;
+}
+
 #header-logo {
     margin: 20px;
     height: 200px;
@@ -151,6 +172,14 @@ h4 {
     float: none;
     display: inline-block;
     width: 90%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-wrapper {
+    float: none;
+    display: inline-block;
+    width: 50%;
     text-align: center;
     margin-bottom: 50px;
 }
